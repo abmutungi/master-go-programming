@@ -13,5 +13,4 @@ func main() {
 	const time = distance / speed // time in seconds
 
 	fmt.Printf("The Sunlight reaches Earth in %v seconds.\n", time)
-
 }

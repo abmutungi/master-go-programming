@@ -10,5 +10,4 @@ func main() {
 
 	fmt.Printf("Shape: %q\n", shape)
 	fmt.Printf("Circle's circumference with radius %f is %f\n", radius, circumference)
-
 }

@@ -3,7 +3,6 @@ package main
 import "fmt"
 
 func main() {
-
 	// if condition_that_evaluates_to_boolean{
 	//      perform action1
 	// }else if condition_that_evaluates_to_boolean{
@@ -18,7 +17,7 @@ func main() {
 		fmt.Println("Too Expensive")
 	}
 
-	if price <= 100 && inStock == true { //the same with: if price <= 100 && inStock { }
+	if price <= 100 && inStock == true { // the same with: if price <= 100 && inStock { }
 		fmt.Println("Buy it!")
 	}
 
@@ -33,7 +32,7 @@ func main() {
 		fmt.Println("It's cheap!")
 	} else if price == 100 {
 		fmt.Println("On the edge")
-	} else { //executed only once if all the if branches are false (it's optional)
+	} else { // executed only once if all the if branches are false (it's optional)
 		fmt.Println("It's Expensive!")
 	}
 }

@@ -8,10 +8,8 @@ func main() {
 	z := float64(x) * y
 	fmt.Println(z)
 
-
-	//a := 5 can't multiply different types (int * float64)
+	// a := 5 can't multiply different types (int * float64)
 	a := 5.
 	b := 6.2 * a
 	fmt.Println(b)
-
 }

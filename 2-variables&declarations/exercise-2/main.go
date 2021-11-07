@@ -10,6 +10,5 @@ func main() {
 
 	a, x = 5.5, false
 
-	_, _, _ = a, x, y 
-
+	_, _, _ = a, x, y
 }

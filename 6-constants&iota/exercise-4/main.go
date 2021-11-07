@@ -1,6 +1,6 @@
 package main
 
-//import "math"
+// import "math"
 
 func main() {
 	const x int = 10
@@ -15,7 +15,7 @@ func main() {
 
 	// ERROR -> invalid operation: a * b (mismatched types int and float64)
 	// const a int = 7
-	
+
 	const a = 7 // make `a` untyped constant
 	const b float64 = 5.6
 	const c = a * b

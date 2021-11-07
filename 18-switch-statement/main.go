@@ -3,14 +3,13 @@ package main
 import "fmt"
 
 func main() {
-
 	language := "golang"
 
 	switch language {
-	case "Python": //values must be comparable (compare string to string)
+	case "Python": // values must be comparable (compare string to string)
 		fmt.Println("You are learning Python! You don't use { } but indentation !! ")
 		// an implicit break is added here
-	case "Go", "golang": //compare language with "Go" OR "golang"
+	case "Go", "golang": // compare language with "Go" OR "golang"
 		fmt.Println("Good, Go for Go!. You are using {}!")
 	default:
 		// the default clause the equivalent of the else clause of an if statement

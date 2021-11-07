@@ -17,5 +17,6 @@ func main() {
 
 	fmt.Println(mySlice)
 }
+
 //[10.0 6.0]
 //[10.0 10.10 10.0]

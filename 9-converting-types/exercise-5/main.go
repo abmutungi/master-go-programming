@@ -16,5 +16,4 @@ func main() {
 	// true
 	result2 := y == 1*5 && int(z) == 0
 	fmt.Println(result2)
-
 }

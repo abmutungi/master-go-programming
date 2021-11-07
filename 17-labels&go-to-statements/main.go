@@ -5,7 +5,6 @@ import (
 )
 
 func main() {
-
 	//** LABEL STATEMENT **//
 
 	// declaring a variable
@@ -19,13 +18,13 @@ func main() {
 
 	// searching for a single friend in a list of people.
 
-outer: //label, it doesn't conflict with other names
+outer: // label, it doesn't conflict with other names
 	// iterating over the array.
 	for index, name := range people { // range returns both the index and the elements of the array one by one
-		for _, friend := range friends { //iterating over the second array
+		for _, friend := range friends { // iterating over the second array
 			if name == friend {
 				fmt.Printf("FOUND A FRIEND: %q at index %d\n", friend, index)
-				break outer //breaking outside the outer loop which terminates
+				break outer // breaking outside the outer loop which terminates
 			}
 		}
 	}
@@ -34,7 +33,7 @@ outer: //label, it doesn't conflict with other names
 
 	// **GOTO STATEMENT **//
 
-	//the following piece of code creates a loop like a for statement does
+	// the following piece of code creates a loop like a for statement does
 	i := 0
 loop: // label
 	if i < 5 {

@@ -18,5 +18,4 @@ func main() {
 
 	// 4.
 	fmt.Printf("y type: %T, score type: %T\n", y, score)
-
 }

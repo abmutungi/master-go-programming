@@ -6,9 +6,9 @@ import (
 )
 
 func main() {
-	var i = 3
-	var f = 3.2
-	var s1, s2 = "3.14", "5"
+	i := 3
+	f := 3.2
+	s1, s2 := "3.14", "5"
 
 	// 1. int to string
 	s := strconv.Itoa(i)
@@ -33,5 +33,4 @@ func main() {
 	} else {
 		fmt.Println("Cannot convert string to float64.")
 	}
-
 }
